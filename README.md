@@ -14,7 +14,7 @@ Modern web application for pizza reservations with secure payment and administra
 
 ## 🛠️ Technologies
 
-- **Frontend**: [SvelteKit](https://kit.svelte.dev/) 2.x + TypeScript
+- **Frontend**: [SvelteKit](https://kit.svelte.dev/) + TypeScript
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/) 4.x
 - **Database**: [Supabase](https://supabase.com/) (PostgreSQL)
 - **Authentication**: Supabase Auth (Google OAuth)
