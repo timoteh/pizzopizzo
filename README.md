@@ -234,17 +234,6 @@ The database uses Supabase's RLS (Row Level Security) to protect data:
 
 - Add your email via admin interface or SQL Editor
 
-## 📞 Support
-
-For any questions or issues:
-
-- Email: admin@croustimothy.com
-- Open an issue on GitHub
-
-## 📄 License
-
-Private project - All rights reserved
-
 ---
 
 Built with ❤️ and 🍕
