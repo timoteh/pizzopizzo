@@ -191,49 +191,6 @@ pizzopizzo/
 └── README.md
 ```
 
-## 🔒 Security and private data
-
-### Sensitive files (NOT versioned)
-
-- `.env` - Environment variables and API keys
-- `database/seed_whitelist.sql` - List of authorized emails
-
-### Collected data
-
-The application collects and stores:
-
-- First and last names
-- Email addresses
-- Phone numbers
-- Reservation information
-
-**Banking information is NEVER stored** - it's handled securely by Stripe.
-
-### Row Level Security (RLS)
-
-The database uses Supabase's RLS (Row Level Security) to protect data:
-
-- Unauthenticated users can only check their whitelist access
-- Whitelist modifications require authentication
-- Reservations are protected by RLS policies
-
-## 🐛 Debugging
-
-### Common issues
-
-**"Stripe could not be initialized"**
-
-- Check that `VITE_PUBLIC_STRIPE_PUBLISHABLE_KEY` is defined in `.env`
-
-**"Error connecting to Supabase"**
-
-- Check URL and anon key in `.env`
-- Verify RLS is properly configured
-
-**"Email not whitelisted"**
-
-- Add your email via admin interface or SQL Editor
-
 ---
 
 Built with ❤️ and 🍕
